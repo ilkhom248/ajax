@@ -1,11 +1,9 @@
 {
-  "name": "jarvis",
-  "version": "0.2.0",
+  "name": "ajax",
+  "version": "0.3.0",
   "description": "Ajax — personal orchestrator agent (Telegram + Claude)",
   "type": "module",
-  "engines": {
-    "node": ">=20"
-  },
+  "engines": { "node": ">=20" },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
