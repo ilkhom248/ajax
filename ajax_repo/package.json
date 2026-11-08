@@ -1,7 +1,7 @@
 {
   "name": "jarvis",
-  "version": "0.1.0",
-  "description": "Jarvis — personal orchestrator agent (Telegram + Claude)",
+  "version": "0.2.0",
+  "description": "Ajax — personal orchestrator agent (Telegram + Claude)",
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -13,11 +13,13 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",
-    "grammy": "^1.30.0"
+    "grammy": "^1.30.0",
+    "pg": "^8.13.0"
   },
   "devDependencies": {
     "tsx": "^4.19.0",
     "typescript": "^5.6.0",
-    "@types/node": "^22.0.0"
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.11.0"
   }
 }
