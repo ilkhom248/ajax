@@ -1,6 +1,7 @@
 import type { Tool } from "./types.js";
 import { huggingfaceTool } from "./huggingface.js";
 import { registerSubagentTool } from "./subagents.js";
+import { writeCodeTool } from "./coder.js";
 
 // ЧТОБЫ ДОБАВИТЬ НОВЫЙ ИНСТРУМЕНТ:
 // 1) создай новый файл в этой папке, напр. image.ts, и экспортируй из него Tool;
@@ -8,6 +9,7 @@ import { registerSubagentTool } from "./subagents.js";
 export const tools: Tool[] = [
   huggingfaceTool,
   registerSubagentTool,
+  writeCodeTool,
 ];
 
 export function findTool(name: string): Tool | undefined {
