@@ -12,6 +12,7 @@ export const tools: Tool[] = [
   registerSubagentTool,
   writeCodeTool,
   getTime,
+  searchGithub,
 ];
 
 export function findTool(name: string): Tool | undefined {
