@@ -3,6 +3,7 @@ import { huggingfaceTool } from "./huggingface.js";
 import { registerSubagentTool } from "./subagents.js";
 import { writeCodeTool } from "./coder.js";
 import { getTime } from "./get_time.js";
+import { searchGithub } from "./search_github.js";
 
 // ЧТОБЫ ДОБАВИТЬ НОВЫЙ ИНСТРУМЕНТ:
 // 1) создай новый файл в этой папке, напр. image.ts, и экспортируй из него Tool;
